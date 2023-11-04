@@ -1,6 +1,4 @@
 package TestClasses;
-//
-//import PageObjectModels.DashboardPage;
 import PageObjectModels.LambdaPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,7 +25,7 @@ public class BasicSearch {
 
         lambda.clickSubmit();
 
-        driver.quit();
+       // driver.quit();
 
 
 

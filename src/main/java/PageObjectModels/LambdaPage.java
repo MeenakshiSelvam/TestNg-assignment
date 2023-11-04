@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class LambdaPage {
 
     WebDriver ld;
+
     private static final By SEARCH_BAR = By.xpath("//input[@name='search']");
 
     private static final By SUBMIT = By.xpath("//button[@type='submit']");

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Meenakshi/testng-assignment">
+        <classes>
+            <class name="TestClasses.BasicSearch">
+                <methods>
+                    <include name="basicSearchTest"/>
+                </methods>
+            </class>
+            <class name="TestClasses.InvalidSearch">
+                <methods>
+                    <include name="InvalidSearchTest"/>
+                </methods>
+            </class>
+            <class name="TestClasses.ProductDetails">
+                <methods>
+                    <include name="productSearchTest"/>
+                </methods>
+            </class>
+            <class name="TestClasses.SearchFilter">
+                <methods>
+                    <include name="AdvancedSearchTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

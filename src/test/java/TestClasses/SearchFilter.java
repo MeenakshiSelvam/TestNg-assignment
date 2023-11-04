@@ -29,7 +29,7 @@ public class SearchFilter {
         lambda.clickSearch();
 
 
-        driver.quit();
+       // driver.quit();
 
 
     }}
