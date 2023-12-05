@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86560f0c-0105-486b-bae6-076270c28cde" name="Changes" comment="Assignment - Test Scenarios 1,2,3,4">
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="86560f0c-0105-486b-bae6-076270c28cde" name="Changes" comment="Amazon Tasks, Myntra task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductDetails.png" beforeDir="false" afterPath="$PROJECT_DIR$/ProductDetails.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invalidPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/invalidPage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModels/LambdaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModels/LambdaPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClasses/BasicSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/BasicSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClasses/InvalidSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/InvalidSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClasses/ProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/ProductDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClasses/SearchFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClasses/SearchFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,18 +54,8 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/Meenakshi/testng-assignment/testng.xml">
-    <configuration name="C:/Users/Meenakshi/testng-assignment/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng-assignment" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvalidSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Myntra_App.myntra">
+    <configuration name="Amazon2.amazon2 (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng-assignment" />
       <extension name="coverage">
         <pattern>
@@ -72,7 +64,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestClasses.InvalidSearch" />
+      <option name="MAIN_CLASS_NAME" value="TestClasses.Amazon2" />
+      <option name="METHOD_NAME" value="amazon2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Amazon2.amazon2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng-assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestClasses.Amazon2" />
+      <option name="METHOD_NAME" value="amazon2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonTask.amazon" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng-assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestClasses.AmazonTask" />
+      <option name="METHOD_NAME" value="amazon" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Myntra_App" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng-assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestClasses.Myntra_App" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -80,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvalidSearch.InvalidSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Myntra_App.myntra" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng-assignment" />
       <extension name="coverage">
         <pattern>
@@ -89,44 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestClasses.InvalidSearch" />
-      <option name="METHOD_NAME" value="InvalidSearchTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductDetails.productSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng-assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestClasses.ProductDetails" />
-      <option name="METHOD_NAME" value="productSearchTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchFilter.AdvancedSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng-assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestClasses.SearchFilter" />
-      <option name="METHOD_NAME" value="AdvancedSearchTest" />
+      <option name="MAIN_CLASS_NAME" value="TestClasses.Myntra_App" />
+      <option name="METHOD_NAME" value="myntra" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Meenakshi/testng-assignment/testng.xml" />
-        <item itemvalue="TestNG.InvalidSearch.InvalidSearchTest" />
-        <item itemvalue="TestNG.ProductDetails.productSearchTest" />
-        <item itemvalue="TestNG.InvalidSearch" />
-        <item itemvalue="TestNG.SearchFilter.AdvancedSearchTest" />
+        <item itemvalue="TestNG.Myntra_App.myntra" />
+        <item itemvalue="TestNG.Myntra_App" />
+        <item itemvalue="TestNG.Amazon2.amazon2" />
+        <item itemvalue="TestNG.AmazonTask.amazon" />
+        <item itemvalue="TestNG.Amazon2.amazon2 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697291717480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Assignment - Test Scenarios 1,2,3,4">
+      <created>1699088794061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699088794061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Amazon Tasks, Myntra task">
+      <created>1701409047797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701409047797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +200,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Assignment - Test Scenarios 1,2,3,4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment - Test Scenarios 1,2,3,4" />
+    <MESSAGE value="Amazon Tasks, Myntra task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amazon Tasks, Myntra task" />
   </component>
 </project>
